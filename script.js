@@ -105,3 +105,7 @@ function animateCircles() {
         circle.style.animationDelay = `${index * 0.5}s`;
     });
 }
+
+function name(params) {
+    
+}
