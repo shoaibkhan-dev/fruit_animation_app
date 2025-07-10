@@ -107,7 +107,7 @@ function animateCircles() {
 }
 
 try {
-    
+    async = await Response
 } catch (error) {
     console.log(error)
 }
