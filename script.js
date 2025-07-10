@@ -106,10 +106,6 @@ function animateCircles() {
     });
 }
 
-function name(params) {
-    console.log(name)
-}
-
 try {
     
 } catch (error) {
