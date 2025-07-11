@@ -107,7 +107,7 @@ function animateCircles() {
 }
 
 
-unction animateCircles() {
+function animateCircles() {
     circles.forEach((circle, index) => {
         circle.style.animation = 'none';
         void circle.offsetWidth;
