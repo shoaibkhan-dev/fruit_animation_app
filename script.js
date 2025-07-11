@@ -106,8 +106,13 @@ function animateCircles() {
     });
 }
 
-try {
-    async = await Response
-} catch (error) {
-    console.log(error)
+
+unction animateCircles() {
+    circles.forEach((circle, index) => {
+        circle.style.animation = 'none';
+        void circle.offsetWidth;
+        circle.style.animation = `expand 1s ease-in-out forwards`;
+        circle.style.animationDelay = `${index * 0.5}s`;
+    });
 }
+
